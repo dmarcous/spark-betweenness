@@ -18,9 +18,19 @@ object KBetweenness
       kBCGraph
   }
   
-  def computeBetweeness(k: Int, vlist: List[VertexId], elist: List[Edge[Any]]):  List[(VertexId, Double)] = 
+  def createKGraphlets() = 
+  {
+    
+  }
+  
+  def computeBetweenessForGraphlet(k: Int, vlist: List[VertexId], elist: List[Edge[Any]]):  List[(VertexId, Double)] = 
   {
     null
+  }
+  
+  def aggregateGraphletsBetweennessScores() =
+  {
+    
   }
 
 }
