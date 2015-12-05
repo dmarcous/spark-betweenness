@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/kbc_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	kBC/KBetweenness$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$.class[0m
+[0m[[0mdebug[0m] [0m	kBC/MainRunner.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/MainRunner.class[0m
+[0m[[0mdebug[0m] [0m	kBC/KBetweenness.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness.class[0m
+[0m[[0mdebug[0m] [0m	kBC/MainRunner$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/MainRunner$.class[0m
+[0m[[0mdebug[0m] [0m	kBC[0m
+[0m[[0mdebug[0m] [0m	  /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
