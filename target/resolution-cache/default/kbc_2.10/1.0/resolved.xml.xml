@@ -4,7 +4,7 @@
 		module="kbc_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20151205131215"
+		publication="20151209214124"
 	>
 		<description>
 		kBC
@@ -36,5 +36,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.5.2" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-graphx_2.10" rev="1.5.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.2.4" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
