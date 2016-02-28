@@ -51,9 +51,9 @@ Parameters for kBC :
 - **outputDir** HDFS output dir location
 - **inputFileName** input file name containing edge_list for graph (as stated in GraphX GraphLoader.edgeListFile)
 
-'''
+```bash
 /usr/lib/spark/bin/spark-submit --class com.centrality.kBC.kBCDriver --executor-cores 1 --executor-memory 10000M --master yarn-cluster --num-executors 28 --conf spark.driver.memory=10000m --conf spark.driver.extraJavaOptions="-Xms4000m -Xmx10000m" --conf spark.executor.extraJavaOptions="-verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps" --conf spark.kryo.registrationRequired=false --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.yarn.maxAppAttempts=1 --conf spark.task.maxFailures=10 /tmp/kbc_2.10-1.0.jar 4 50 /tmp/input/ /tmp/output/ loc-brightkite_edges.txt
-'''
+```
 
 When using kBC this way, it is highly recommended to tune these parameters for your own benefit :
 
