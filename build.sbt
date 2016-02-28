@@ -1,4 +1,4 @@
-name := "kBC"
+name := "spark-beetweenness"
 
 version := "1.0"
 

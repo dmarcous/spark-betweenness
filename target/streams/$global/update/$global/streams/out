@@ -1,26 +1,26 @@
 [0m[[0minfo[0m] [0mUpdating {file:/Users/dmarcous/gDrive/git/spark-beetweenness/}spark-beetweenness...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: kbc#kbc_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#spark-beetweenness_2.10;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6da12e5a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@619c5c59[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.5.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.5.2[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-core_2.10;1.5.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.avro#avro-mapred;1.7.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.avro#avro-mapred;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -3089,14 +3089,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;1.5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;1.5.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.10;1.5.2[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-graphx_2.10;1.5.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime(*)][0m
@@ -3127,17 +3127,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->master(compile)][0m
@@ -5774,10 +5774,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
@@ -5794,18 +5794,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->master(compile)][0m
@@ -8436,10 +8436,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
@@ -8456,14 +8456,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;2.2.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.2.4 {test=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.2.4[0m
 [0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;2.2.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
@@ -8472,21 +8472,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->master(compile)][0m
@@ -11117,10 +11117,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
@@ -11137,20 +11137,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->master(compile)][0m
@@ -13781,10 +13781,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
@@ -13801,20 +13801,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.avro#avro-mapred;1.7.7->org.apache.avro#avro-ipc;1.7.7 [compile->master(compile)][0m
@@ -16445,10 +16445,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->net.sf.py4j#py4j;0.8.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
@@ -16465,10 +16465,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
@@ -16477,26 +16477,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for kbc#kbc_2.10;1.0 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-beetweenness_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
@@ -16514,8 +16514,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
@@ -16528,11 +16528,11 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies kbc#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#spark-beetweenness_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
@@ -16662,19 +16662,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2485ms :: artifacts dl 77ms[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 compile produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 runtime produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 test produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 provided produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 optional produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 compile-internal produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 runtime-internal produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 test-internal produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 plugin produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 sources produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 docs produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 pom produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for kbc#kbc_2.10;1.0 scala-tool produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/kbc-kbc_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2485ms resolve - 77ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2419ms :: artifacts dl 75ms[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 compile produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 runtime produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 test produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 provided produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 optional produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 compile-internal produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 runtime-internal produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 test-internal produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 plugin produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 sources produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 docs produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 pom produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-beetweenness_2.10;1.0 scala-tool produced in /Users/dmarcous/gDrive/git/spark-beetweenness/target/resolution-cache/reports/default-spark-beetweenness_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2419ms resolve - 75ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

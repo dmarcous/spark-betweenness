@@ -1,4 +1,4 @@
-package com.centralitly.kBC
+package com.centrality.kBC
 
 import scala.reflect.ClassTag
 import org.apache.spark.Logging

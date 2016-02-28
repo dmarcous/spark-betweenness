@@ -1,16 +1,17 @@
-package com.centralitly.kBC
+package com.centrality.kBC
+
+import scala.collection.mutable.HashMap
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
-import org.scalatest.Finders
-import org.scalatest.FlatSpec
-import org.scalatest.Matchers._
-import org.apache.spark.rdd.RDD
-import org.apache.spark.graphx.VertexId
 import org.apache.spark.graphx.Edge
 import org.apache.spark.graphx.Graph
-import org.apache.spark.graphx.VertexRDD
-import scala.collection.mutable.HashMap
+import org.apache.spark.graphx.VertexId
+import org.apache.spark.rdd.RDD
+import org.scalatest.FlatSpec
+import org.scalatest.Matchers.contain
+import org.scalatest.Matchers.convertToAnyShouldWrapper
+import org.scalatest.Matchers.equal
 
 class KBetweennessTest extends FlatSpec 
 {

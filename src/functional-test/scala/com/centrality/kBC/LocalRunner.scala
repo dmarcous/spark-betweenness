@@ -1,11 +1,11 @@
-package com.centralitly.kBC
+package com.centrality.kBC
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
-import org.apache.spark.rdd.RDD
-import org.apache.spark.graphx.VertexId
 import org.apache.spark.graphx.Edge
 import org.apache.spark.graphx.Graph
+import org.apache.spark.graphx.VertexId
+import org.apache.spark.rdd.RDD
 
 object MainRunner 
 {
