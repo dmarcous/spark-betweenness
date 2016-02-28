@@ -9,15 +9,15 @@ Computing k Betweenness Centrality (kBC) on arbitraty graphs using GraphX.
 ### Steps  
 
   1. Using Pregel API to create small k-graphlets
-  2. Local beetweenness contribution calculation for ecah vertex to other vertices using Brandes algorithm for calculating BC.
+  2. Local betweenness contribution calculation for each vertex to other vertices using Brandes algorithm for calculating BC.
   3. Aggregating results (reduce) from all vertices to conclude each vertex betweenness score.
   4. Assemble a graph similar to the original graph that contains the kBC score for each node.
 
 ### Notes 
 
-  The method above ilustrated that spark-beetweenness works best for graphs with small diameter.
+  The method above ilustrated that spark-betweenness works best for graphs with a small diameter.
   We actually hold all k-graphlets in memory for Brandes calculation as they are the core of parallelizing this algorithm.
-  Therefore, we manage to compute kBC on millions of nodes and vertices with large diameter graphs (such as road networks), but faily miserabely to do so on small diameter graphs (such as social networks).
+  Therefore, we manage to compute kBC on millions of nodes and vertices with large diameter graphs (such as road networks), but fail    miserabely to do so on small diameter graphs (such as social networks).
 
 ## Requirements
 
