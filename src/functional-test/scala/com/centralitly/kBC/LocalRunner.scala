@@ -1,4 +1,4 @@
-package kBC
+package com.centralitly.kBC
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
@@ -31,5 +31,8 @@ object MainRunner
     val defaultUser = ("John Doe", "Missing")
     // Build the initial Graph
     val graph = Graph(users, relationships, defaultUser)
+    
+    val kBCGraph = 
+      KBetweenness.run(graph, 3)
   }
 }

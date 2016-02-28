@@ -1,4 +1,4 @@
-package kBC
+package com.centralitly.kBC
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
