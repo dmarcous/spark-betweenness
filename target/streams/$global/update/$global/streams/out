@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#kbc_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fd860af[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2be30aff[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -17,8 +17,43 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.5.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.5.2[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-core_2.10;1.5.2 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.5.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-core_2.10/1.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-core_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-core_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.pom (1.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.5.2!spark-core_2.10.pom(pom.original) (414ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.5.2 {}[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.5.2 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-parent_2.10/1.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-parent_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-parent_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.pom (1.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-parent_2.10;1.5.2!spark-parent_2.10.pom(pom.original) (508ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache#apache;14 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;14 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;14[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-parent_2.10/1.5.2/jars/spark-parent_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/1.5.2/spark-parent_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-core_2.10/1.5.2/jars/spark-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-core_2.10;1.5.2 in jcenter[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.apache.spark#spark-core_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.avro#avro-mapred;1.7.7 [compile->master(compile)][0m
@@ -2131,8 +2166,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.spark#spark-launcher_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-launcher_2.10;1.5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-launcher_2.10;1.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-launcher_2.10;1.5.2[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-launcher_2.10;1.5.2 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-launcher_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-launcher_2.10;1.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-launcher_2.10/1.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-launcher_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-launcher_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.pom (1.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.10;1.5.2!spark-launcher_2.10.pom(pom.original) (357ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.5.2 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-launcher_2.10/1.5.2/jars/spark-launcher_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-launcher_2.10;1.5.2 in jcenter[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.spark#spark-launcher_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-launcher_2.10;1.5.2->org.spark-project.spark#unused;1.0.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.spark-project.spark#unused;1.0.0 ...[0m
@@ -2149,8 +2200,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.spark#spark-network-common_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;1.5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-network-common_2.10;1.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-network-common_2.10;1.5.2[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-common_2.10;1.5.2 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-common_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-network-common_2.10;1.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-network-common_2.10/1.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-network-common_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-network-common_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.pom (1.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;1.5.2!spark-network-common_2.10.pom(pom.original) (330ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.5.2 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-network-common_2.10/1.5.2/jars/spark-network-common_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-common_2.10;1.5.2 in jcenter[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.spark#spark-network-common_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-common_2.10;1.5.2->io.netty#netty-all;4.0.29.Final [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving io.netty#netty-all;4.0.29.Final ...[0m
@@ -2171,8 +2238,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.spark#spark-network-shuffle_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;1.5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-network-shuffle_2.10;1.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-network-shuffle_2.10;1.5.2[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-shuffle_2.10;1.5.2 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-network-shuffle_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-network-shuffle_2.10;1.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-network-shuffle_2.10/1.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-network-shuffle_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-network-shuffle_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.pom (1.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;1.5.2!spark-network-shuffle_2.10.pom(pom.original) (343ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.5.2 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-network-shuffle_2.10/1.5.2/jars/spark-network-shuffle_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-network-shuffle_2.10;1.5.2 in jcenter[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.spark#spark-network-shuffle_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-shuffle_2.10;1.5.2->org.apache.spark#spark-network-common_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-network-shuffle_2.10;1.5.2->org.apache.spark#spark-network-common_2.10;1.5.2 [compile->compile(*)][0m
@@ -2187,8 +2270,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.spark#spark-unsafe_2.10;1.5.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-unsafe_2.10;1.5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-unsafe_2.10;1.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-unsafe_2.10;1.5.2[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-unsafe_2.10;1.5.2 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-unsafe_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-unsafe_2.10;1.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-unsafe_2.10/1.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-unsafe_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-unsafe_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.pom (1.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.10;1.5.2!spark-unsafe_2.10.pom(pom.original) (327ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.5.2 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-unsafe_2.10/1.5.2/jars/spark-unsafe_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-unsafe_2.10;1.5.2 in jcenter[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-core_2.10;1.5.2->org.apache.spark#spark-unsafe_2.10;1.5.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-unsafe_2.10;1.5.2->com.google.code.findbugs#jsr305;1.3.9 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-unsafe_2.10;1.5.2->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)][0m
@@ -3093,8 +3192,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;1.5.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;1.5.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.10;1.5.2[0m
-[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-graphx_2.10;1.5.2 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-graphx_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.spark#spark-graphx_2.10;1.5.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.5.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-graphx_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.apache.spark#spark-graphx_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.pom (1.5.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.pom.md5[0m
+[0m[[0mdebug[0m] [0mmd5 OK for https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.5.2!spark-graphx_2.10.pom(pom.original) (2120ms)[0m
+[0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;1.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;1.5.2 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;1.5.2[0m
+[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.5.2/jars/spark-graphx_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.apache.spark#spark-graphx_2.10;1.5.2 in jcenter[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.apache.spark#spark-graphx_2.10;1.5.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.5.2->org.apache.spark#spark-core_2.10;1.5.2 [compile->master(compile)][0m
@@ -8460,21 +8576,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;2.2.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.2.4 {test=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;2.2.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.2.4 {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.scalatest/scalatest_2.10/2.2.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.10;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scalatest#scalatest_2.10;2.2.4[0m
-[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.pom (2.2.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.2.4!scalatest_2.10.pom(pom.original) (459ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.scalatest/scalatest_2.10/2.2.4/bundles/scalatest_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;2.2.4 in jcenter[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.2.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;2.2.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#kbc_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
@@ -16549,16 +16652,46 @@
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-core_2.10;1.5.2!spark-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.5.2!spark-graphx_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.5.2!spark-core_2.10.jar (4449ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.5.2!spark-graphx_2.10.jar (1823ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro-mapred;1.7.7!avro-mapred.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill-java;0.5.0!chill-java.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-client;2.2.0!hadoop-client.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-launcher_2.10;1.5.2!spark-launcher_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-network-common_2.10;1.5.2!spark-network-common_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.10;1.5.2!spark-network-shuffle_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-unsafe_2.10;1.5.2!spark-unsafe_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.10;1.5.2!spark-launcher_2.10.jar (487ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;1.5.2!spark-network-common_2.10.jar (1638ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;1.5.2!spark-network-shuffle_2.10.jar (535ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.10;1.5.2!spark-unsafe_2.10.jar (455ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
@@ -16599,13 +16732,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/dmarcous/.ivy2/local/org.apache.avro/avro/1.7.7/jars/avro.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.avro#avro;1.7.7!avro.jar (1998ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro;1.7.7!avro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.21!kryo.jar(bundle)[0m
@@ -16677,16 +16804,11 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jboss.netty#netty;3.2.2.Final!netty.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.10/2.2.4/scalatest_2.10-2.2.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.2.4!scalatest_2.10.jar(bundle) (12642ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.2.4!scalatest_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4397ms :: artifacts dl 14689ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 11975ms :: artifacts dl 9451ms[0m
 [0m[[0mdebug[0m] [0m	report for default#kbc_2.10;1.0 compile produced in /Users/dmarcous/gDrive/git/kBC/target/resolution-cache/reports/default-kbc_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#kbc_2.10;1.0 runtime produced in /Users/dmarcous/gDrive/git/kBC/target/resolution-cache/reports/default-kbc_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#kbc_2.10;1.0 test produced in /Users/dmarcous/gDrive/git/kBC/target/resolution-cache/reports/default-kbc_2.10-test.xml[0m
@@ -16700,5 +16822,5 @@
 [0m[[0mdebug[0m] [0m	report for default#kbc_2.10;1.0 docs produced in /Users/dmarcous/gDrive/git/kBC/target/resolution-cache/reports/default-kbc_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#kbc_2.10;1.0 pom produced in /Users/dmarcous/gDrive/git/kBC/target/resolution-cache/reports/default-kbc_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#kbc_2.10;1.0 scala-tool produced in /Users/dmarcous/gDrive/git/kBC/target/resolution-cache/reports/default-kbc_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4397ms resolve - 14689ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (11975ms resolve - 9451ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

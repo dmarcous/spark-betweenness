@@ -40,21 +40,25 @@ object KBetweenness
       // Init edges to hold - Edge Betweenness to 0.0
       .mapTriplets[Double]({x: EdgeTriplet[VD, ED] => (0.0) })
       // Init vertices to hold - Vertex betweenness (0.0), and K distance Edge list (empty)
-      .mapVertices( (id, attr) => (0.0, List[VertexId](), List[(VertexId, VertexId)]()))
+      .mapVertices( (id, attr) => (0.0, List[VertexId](id), List[(VertexId, VertexId)]()))
+      //.reverse // Because GraphX is directed and we want graphlets containing all vertices a vertex might effect 
       .cache()
       
       def vertexProgram(id: VertexId, attr: (Double, List[VertexId], List[(VertexId, VertexId)]), msgSum: (List[VertexId], List[(VertexId, VertexId)])): (Double, List[VertexId], List[(VertexId, VertexId)]) =
-        (attr._1, attr._2.union(msgSum._1), attr._3.union(msgSum._2))
+        (attr._1, attr._2.union(msgSum._1).distinct, attr._3.union(msgSum._2).distinct)
       def sendMessage(edge: EdgeTriplet[(Double, List[VertexId], List[(VertexId, VertexId)]), Double]) : Iterator[(VertexId, (List[VertexId], List[(VertexId, VertexId)]))]=
-        Iterator((edge.dstId, (edge.srcAttr._2, edge.srcAttr._3)))
+        Iterator((edge.dstId, (edge.srcAttr._2.:+(edge.srcId) , edge.srcAttr._3.+:(edge.srcId, edge.dstId))),
+                 (edge.srcId, (edge.dstAttr._2.:+(edge.dstId) , edge.dstAttr._3.+:(edge.srcId, edge.dstId)))
+                )
       def messageCombiner(a: (List[VertexId], List[(VertexId, VertexId)]), b: (List[VertexId], List[(VertexId, VertexId)])): (List[VertexId], List[(VertexId, VertexId)]) = 
-        (a._1.union(b._1) , a._2.union(b._2))
+        (a._1.union(b._1) , a._2.union(b._2) )
       // The initial message received by all vertices in PageRank
       val initialMessage = (List[VertexId](), List[(VertexId, VertexId)]())
 
       // Execute pregel for k iterations, get all vertices/edges in distance k for every node
       Pregel(graphContainingGraphlets, initialMessage, k, activeDirection = EdgeDirection.Both)(
-        vertexProgram, sendMessage, messageCombiner)        
+        vertexProgram, sendMessage, messageCombiner)
+      //.reverse // return to originial directon
   }
   
   def computeVertexBetweenessCentrality(id: VertexId, vlist: List[VertexId], elist: List[(VertexId, VertexId)]):  List[(VertexId, Double)] = 

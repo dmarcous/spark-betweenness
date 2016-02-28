@@ -7,14 +7,14 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20151209214124"/>
+		date="20160227154445"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-graphx_2.10">
-			<revision name="1.5.2" status="release" pubdate="20151103223420" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="118">
-				<metadata-artifact status="no" details="" size="66827" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.pom"/>
+			<revision name="1.5.2" status="release" pubdate="20151103223420" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="118">
+				<metadata-artifact status="successful" details="" size="4491" time="2120" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/ivy-1.5.2.xml" searched="true" original-local-location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/ivy-1.5.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.pom"/>
 				<caller organisation="default" name="kbc_2.10" conf="compile" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="spark-graphx_2.10" type="jar" ext="jar" status="no" details="" size="653616" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.5.2.jar">
+					<artifact name="spark-graphx_2.10" type="jar" ext="jar" status="successful" details="" size="653616" time="1823" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.5.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.5.2/spark-graphx_2.10-1.5.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -32,12 +32,12 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-core_2.10">
-			<revision name="1.5.2" status="release" pubdate="20151110202235" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
-				<metadata-artifact status="no" details="" size="77558" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.pom"/>
+			<revision name="1.5.2" status="release" pubdate="20151110202235" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<metadata-artifact status="successful" details="" size="19816" time="414" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/ivy-1.5.2.xml" searched="true" original-local-location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/ivy-1.5.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-graphx_2.10" conf="default, compile, runtime, master" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.5.2"/>
 				<caller organisation="default" name="kbc_2.10" conf="compile" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="spark-core_2.10" type="jar" ext="jar" status="no" details="" size="11126852" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.2.jar">
+					<artifact name="spark-core_2.10" type="jar" ext="jar" status="successful" details="" size="11126852" time="4449" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.5.2/spark-core_2.10-1.5.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -613,11 +613,11 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-unsafe_2.10">
-			<revision name="1.5.2" status="release" pubdate="20151110161856" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
-				<metadata-artifact status="no" details="" size="67051" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-unsafe_2.10/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.pom"/>
+			<revision name="1.5.2" status="release" pubdate="20151110161856" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<metadata-artifact status="successful" details="" size="4636" time="327" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-unsafe_2.10/ivy-1.5.2.xml" searched="true" original-local-location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-unsafe_2.10/ivy-1.5.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.10" conf="default, compile, runtime, master" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.5.2"/>
 				<artifacts>
-					<artifact name="spark-unsafe_2.10" type="jar" ext="jar" status="no" details="" size="43206" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-unsafe_2.10/jars/spark-unsafe_2.10-1.5.2.jar">
+					<artifact name="spark-unsafe_2.10" type="jar" ext="jar" status="successful" details="" size="43206" time="455" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-unsafe_2.10/jars/spark-unsafe_2.10-1.5.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.10/1.5.2/spark-unsafe_2.10-1.5.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -675,23 +675,23 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-shuffle_2.10">
-			<revision name="1.5.2" status="release" pubdate="20151110161857" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
-				<metadata-artifact status="no" details="" size="66959" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.10/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.pom"/>
+			<revision name="1.5.2" status="release" pubdate="20151110161857" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<metadata-artifact status="successful" details="" size="3791" time="343" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.10/ivy-1.5.2.xml" searched="true" original-local-location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.10/ivy-1.5.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.10" conf="default, compile, runtime, master" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.5.2"/>
 				<artifacts>
-					<artifact name="spark-network-shuffle_2.10" type="jar" ext="jar" status="no" details="" size="49268" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.10/jars/spark-network-shuffle_2.10-1.5.2.jar">
+					<artifact name="spark-network-shuffle_2.10" type="jar" ext="jar" status="successful" details="" size="49268" time="535" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.10/jars/spark-network-shuffle_2.10-1.5.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.10/1.5.2/spark-network-shuffle_2.10-1.5.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-common_2.10">
-			<revision name="1.5.2" status="release" pubdate="20151110161849" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
-				<metadata-artifact status="no" details="" size="66695" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-common_2.10/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.pom"/>
+			<revision name="1.5.2" status="release" pubdate="20151110161849" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<metadata-artifact status="successful" details="" size="3903" time="330" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-common_2.10/ivy-1.5.2.xml" searched="true" original-local-location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-common_2.10/ivy-1.5.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-network-shuffle_2.10" conf="compile, runtime" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.5.2"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.10" conf="default, compile, runtime, master" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.5.2"/>
 				<artifacts>
-					<artifact name="spark-network-common_2.10" type="jar" ext="jar" status="no" details="" size="2330024" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-common_2.10/jars/spark-network-common_2.10-1.5.2.jar">
+					<artifact name="spark-network-common_2.10" type="jar" ext="jar" status="successful" details="" size="2330024" time="1638" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-network-common_2.10/jars/spark-network-common_2.10-1.5.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.10/1.5.2/spark-network-common_2.10-1.5.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -710,11 +710,11 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-launcher_2.10">
-			<revision name="1.5.2" status="release" pubdate="20151110161846" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
-				<metadata-artifact status="no" details="" size="67912" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-launcher_2.10/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.pom"/>
+			<revision name="1.5.2" status="release" pubdate="20151110161846" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<metadata-artifact status="successful" details="" size="5103" time="357" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-launcher_2.10/ivy-1.5.2.xml" searched="true" original-local-location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-launcher_2.10/ivy-1.5.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.10" conf="default, compile, runtime, master" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.5.2"/>
 				<artifacts>
-					<artifact name="spark-launcher_2.10" type="jar" ext="jar" status="no" details="" size="43202" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-launcher_2.10/jars/spark-launcher_2.10-1.5.2.jar">
+					<artifact name="spark-launcher_2.10" type="jar" ext="jar" status="successful" details="" size="43202" time="487" location="/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-launcher_2.10/jars/spark-launcher_2.10-1.5.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.10/1.5.2/spark-launcher_2.10-1.5.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -1663,7 +1663,7 @@
 				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="compile, runtime" rev="1.7.4" rev-constraint-default="1.7.4" rev-constraint-dynamic="1.7.4" callerrev="2.2.0"/>
 				<caller organisation="org.apache.avro" name="avro-ipc" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.7"/>
 				<artifacts>
-					<artifact name="avro" type="jar" ext="jar" status="successful" details="" size="436303" time="1998" location="/Users/dmarcous/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.7.jar">
+					<artifact name="avro" type="jar" ext="jar" status="no" details="" size="436303" time="0" location="/Users/dmarcous/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.7.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar"/>
 					</artifact>
 				</artifacts>

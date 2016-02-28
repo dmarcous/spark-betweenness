@@ -19,21 +19,39 @@ name hashing:
 1 items
 0 -> true
 products:
-4 items
+21 items
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$1.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$2.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$3.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$4.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$7$$anonfun$apply$2.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$7.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$8$$anonfun$apply$1.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$8.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$computeVertexBetweenessCentrality$1.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$computeVertexBetweenessCentrality$2.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$computeVertexBetweenessCentrality$3.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$createKGraphlets$1.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$createKGraphlets$2.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$createKGraphlets$3.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$getNeighbourMap$1$$anonfun$5.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$getNeighbourMap$1$$anonfun$6.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$getNeighbourMap$1.class
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$.class
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness.class
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/MainRunner$.class
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/MainRunner.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/kBCDriver$.class
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> /Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/kBCDriver.class
 binary dependencies:
-8 items
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Library/Third Party Plugins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar
+9 items
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/rt.jar
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.2.jar
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.5.2.jar
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /Users/dmarcous/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> /Library/Third Party Plugins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> /Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.2.jar
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> /Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.5.2.jar
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> /Users/dmarcous/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/rt.jar
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> /Users/dmarcous/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> /Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.2.jar
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> /Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.5.2.jar
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> /Users/dmarcous/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -43,7 +61,8 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-0 items
+1 items
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -51,113 +70,319 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-4 items
+21 items
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> kBC.MainRunner
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> kBC.MainRunner$
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$1
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$2
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$3
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$4
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$7
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$7$$anonfun$apply$2
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$8
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$8$$anonfun$apply$1
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$computeVertexBetweenessCentrality$1
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$computeVertexBetweenessCentrality$2
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$computeVertexBetweenessCentrality$3
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$createKGraphlets$1
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$createKGraphlets$2
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$createKGraphlets$3
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$getNeighbourMap$1
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$getNeighbourMap$1$$anonfun$5
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC.KBetweenness$$anonfun$getNeighbourMap$1$$anonfun$6
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> kBC.kBCDriver
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> kBC.kBCDriver$
 used names:
-63 items
+219 items
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> !=
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> *
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> +
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> +:
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> +=
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> /
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> :+
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> <init>
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> ==
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Any
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> AnyRef
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Both
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> ClassTag
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> DEFAULT_BC
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Double
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> ED
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Edge
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> EdgeDirection
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> EdgeTriplet
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Graph
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> HashMap
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Int
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Iterator
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> KBetweenness
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> List
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> ListBuffer
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Logging
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Long
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Nil
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Nothing
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Ordering
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> PairRDDFunctions
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Pregel
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Queue
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> RDD
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Stack
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Tuple2
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> Tuple3
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> VD
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> VertexId
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> VertexRDD
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> _1
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> _2
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> _3
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> _root_
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> a
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> aggregateGraphletsBetweennessScores
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> apache
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> append
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> apply
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> attr
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> b
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> cache
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> canBuildFrom
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> collection
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> computeVertexBetweenessCentrality
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> createKGraphlets
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> delta
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> dequeue
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> dist
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> distinct
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> dstAttr
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> dstId
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> edge
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> elist
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> enqueue
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> filter
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> flatMap
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> foreach
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> getNeighbourMap
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> getOrElse
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> graph
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> graphContainingGraphlets
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> graphx
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> id
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> immutable
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> initialMessage
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> isEmpty
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> k
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBC
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBCAdditions
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kBCGraph
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> kGraphletsGraph
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> listkBC
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> map
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> mapTriplets
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> mapVertices
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> materializeClassTag
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> math
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> medBC
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> messageCombiner
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> msgSum
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> mutable
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> ne
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> neighbourList
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> neighbourMap
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> nlist
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> org
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> outerJoinVertices
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> package
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> pop
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> predecessors
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> push
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> put
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> q
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> qual$1
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> rdd
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> rddToPairRDDFunctions
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> reduceByKey
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> reflect
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> s
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> scala
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> sendMessage
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> sigma
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> spark
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> <init>
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> AnyRef
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> Array
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> ClassTag
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> Edge
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> Graph
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> MainRunner
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> Predef
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> RDD
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> SparkConf
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> SparkContext
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> String
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> Tuple2
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> Unit
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> VertexId
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> apache
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> appName
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> apply
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> conf
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> defaultUser
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> graphx
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> kBC
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> materializeClassTag
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> org
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> package
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> parallelize
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> rdd
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> relationships
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> sc
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> scala
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> setAppName
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> setMaster
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> spark
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> sparkMode
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> users
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> wrapRefArray
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> srcAttr
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> srcId
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> toList
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> unary_!
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> union
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> update
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> v
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> vertex
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> vertexKBcGraph
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> vertexProgram
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> vertices
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> verticeskBC
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> vlist
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> w
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> while$1
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> while$2
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$10
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$11
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$12
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$13
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$3
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$4
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$5
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$6
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$7
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$8
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> x$9
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> ||
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> +
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> <init>
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> AnyRef
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> Array
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> Calendar
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> ClassTag
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> DEFAULT_CANONICAL_ORIENTATION
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> DEFAULT_E_OUTPUT_FILE
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> DEFAULT_V_OUTPUT_FILE
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> Double
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> EdgePartition2D
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> GraphLoader
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> Int
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> KBetweenness
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> List
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> Long
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> Ordering
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> PartitionStrategy
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> Predef
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> SparkConf
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> SparkContext
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> String
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> Tuple2
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> Unit
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> apache
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> appName
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> apply
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> args
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> augmentString
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> canonicalOrientation
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> coalesce
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> conf
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> count
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> edgeListFile
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> edges
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> get
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> getInstance
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> getTime
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> graph
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> graphx
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> hadoopConfiguration
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> immutable
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> inputDir
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> inputFileName
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> inputPath
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> java
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> k
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> kBC
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> kBCDriver
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> kBCGraph
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> materializeClassTag
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> math
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> mkString
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> numEdgePartitions
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> org
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> outputDir
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> outputEdgesFileName
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> outputEdgesPath
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> outputVerticesFileName
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> outputVerticesPath
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> package
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> partitionBy
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> println
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> run
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> saveAsTextFile
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> sc
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> scala
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> setAppName
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> spark
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> toInt
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> toString
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> util
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> vertices
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> x$1
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> x$2
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> x$3
 product stamps:
-4 items
-/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$.class -> lastModified(1449318324000)
-/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness.class -> lastModified(1449318324000)
-/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/MainRunner$.class -> lastModified(1449318324000)
-/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/MainRunner.class -> lastModified(1449318324000)
+21 items
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$1.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$2.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$3.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$4.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$7$$anonfun$apply$2.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$7.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$8$$anonfun$apply$1.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$8.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$computeVertexBetweenessCentrality$1.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$computeVertexBetweenessCentrality$2.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$computeVertexBetweenessCentrality$3.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$createKGraphlets$1.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$createKGraphlets$2.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$createKGraphlets$3.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$getNeighbourMap$1$$anonfun$5.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$getNeighbourMap$1$$anonfun$6.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$$anonfun$getNeighbourMap$1.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness$.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/KBetweenness.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/kBCDriver$.class -> lastModified(1456690461000)
+/Users/dmarcous/gDrive/git/kBC/target/scala-2.10/classes/kBC/kBCDriver.class -> lastModified(1456690461000)
 source stamps:
 2 items
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> hash(ab73d3f707b24075fb5c824d540b237deaa68aae)
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> hash(a4d03072e12cb8e7dac50487fcea758f710edfaf)
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> hash(e313c9976923c7b53b9dafbe12c9d71c4b6823f0)
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> hash(984d69682f132cabb851c3c74bc440738f9bc417)
 binary stamps:
-4 items
-/Library/Third Party Plugins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar -> lastModified(1444171857000)
-/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.2.jar -> lastModified(1447165215000)
-/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.5.2.jar -> lastModified(1447185375000)
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1450828997000)
+/Users/dmarcous/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar -> lastModified(1396571101000)
+/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.2.jar -> lastModified(1447165128000)
+/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.5.2.jar -> lastModified(1447185264000)
 /Users/dmarcous/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> lastModified(1396783702000)
 class names:
-4 items
-/Library/Third Party Plugins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar -> java.lang.Object
-/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.2.jar -> org.apache.spark.rdd.RDD
-/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.5.2.jar -> org.apache.spark.graphx.package$
-/Users/dmarcous/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Array
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/dmarcous/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar -> org.apache.hadoop.conf.Configuration
+/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.2.jar -> org.apache.spark.SparkConf
+/Users/dmarcous/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.5.2.jar -> org.apache.spark.graphx.GraphLoader
+/Users/dmarcous/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Int
 internal apis:
 2 items
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAUYKOtAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cP47UYx0AAZub3RpZnlzcQB+AAwEJHQfdAAEd2FpdHNxAH4ADCQYfdJ0AA0kYXNJbnN0YW5jZU9mc3EAfgAM+qsfKXQABmVxdWFsc3NxAH4ADNYLyNF0AAxhc0luc3RhbmNlT2ZzcQB+AAxqJ1RvdAAMS0JldHdlZW5uZXNzc3EAfgAMmAMRhnQAA3J1bnNxAH4ADCh17Pd0AAxzeW5jaHJvbml6ZWRzcQB+AAzY4TsXdAANJGlzSW5zdGFuY2VPZnNxAH4ADOfVlC10AAlub3RpZnlBbGxzcQB+AAzuL2r7dAAMaXNJbnN0YW5jZU9mc3EAfgAMSZlSlnQAAj09c3EAfgAMiAuJPXQABWNsb25lc3EAfgAM+PMypXQACHRvU3RyaW5nc3EAfgAMLpzJWHQAAiE9c3EAfgAMqrpj9XQACGdldENsYXNzc3EAfgAMzEDSanQAEWNvbXB1dGVCZXR3ZWVuZXNzc3EAfgAMYZCkG3QAAm5lc3EAfgAMiKRTg3QAAmVxc3EAfgAM+qKuoHQAAiMjc3EAfgAMwOoxCnQACGZpbmFsaXplc3EAfgAMmf0u33QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEGtCQy5LQmV0d2Vlbm5lc3N1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBceHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBbAHBzcQB+AGBzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBkc3EAfgBbAHBzcQB+AGB1cQB+AD4AAAAAc3EAfgBbAHBzcQB+AGB1cQB+AD4AAAAAc3EAfgBbAHBzcQB+AGB1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGN0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGNzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIB0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIFzcQB+AHR0AANBbnlzcQB+AHhzcQB+AHt1cQB+AH4AAAACc3EAfgCAdAAFc2NhbGFxAH4Ah3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAA2tCQ3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUXIaiLR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL2RtYXJjb3VzL2dEcml2ZS9naXQva0JDL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSrc9P3B7JAdftcgk1UCyN96qaKrg==
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBIi1/xAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cL/ABrV0AAZub3RpZnlzcQB+AAxHJOs9dAAKTWFpblJ1bm5lcnNxAH4ADNideId0AAR3YWl0c3EAfgAMc5Z0vHQADSRhc0luc3RhbmNlT2ZzcQB+AAwWoMCrdAAGZXF1YWxzc3EAfgAM3TKgenQADGFzSW5zdGFuY2VPZnNxAH4ADKhv5ZZ0AAxzeW5jaHJvbml6ZWRzcQB+AAxpw14LdAANJGlzSW5zdGFuY2VPZnNxAH4ADDqMWkZ0AARtYWluc3EAfgAM100GN3QACW5vdGlmeUFsbHNxAH4ADGRRdX50AAxpc0luc3RhbmNlT2ZzcQB+AAxprupmdAACPT1zcQB+AAwuQMbxdAAFY2xvbmVzcQB+AAx04Q4WdAAIdG9TdHJpbmdzcQB+AAye9H2SdAACIT1zcQB+AAz5l2uWdAAIZ2V0Q2xhc3NzcQB+AAw0D3L3dAACbmVzcQB+AAwRvC3LdAACZXFzcQB+AAzn429bdAACIyNzcQB+AAyHawzRdAAIZmluYWxpemVzcQB+AAy1XpNYdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAOa0JDLk1haW5SdW5uZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBaeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBZAHBzcQB+AF5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBic3EAfgBZAHBzcQB+AF51cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB91cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH91cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBseHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBzWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBhc3EAfgBydAAFQXJyYXlxAH4AeHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBydAAGU3RyaW5nc3EAfgB2c3EAfgB5dXEAfgB8AAAAA3NxAH4AfnQABGphdmFzcQB+AH50AARsYW5ncQB+AINzcQB+AFkAcHNxAH4AXnVxAH4APAAAAABzcQB+AFkAcHNxAH4AXnVxAH4AlwAAAAJzcQB+AHJ0AAZPYmplY3RxAH4Am3NxAH4AcnQAA0FueXEAfgB4dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAADa0JDc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFRchqItHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADgvVXNlcnMvZG1hcmNvdXMvZ0RyaXZlL2dpdC9rQkMvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKTQMHLhLLjn2sUEh/zqdY9xDt+v
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBoD8RsAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cP47UYx0AAZub3RpZnlzcQB+AAwEJHQfdAAEd2FpdHNxAH4ADCQYfdJ0AA0kYXNJbnN0YW5jZU9mc3EAfgAM+qsfKXQABmVxdWFsc3NxAH4ADNYLyNF0AAxhc0luc3RhbmNlT2ZzcQB+AAxqJ1RvdAAMS0JldHdlZW5uZXNzc3EAfgAMMeC/EHQAI2FnZ3JlZ2F0ZUdyYXBobGV0c0JldHdlZW5uZXNzU2NvcmVzc3EAfgAMmAMRhnQAA3J1bnNxAH4ADCh17Pd0AAxzeW5jaHJvbml6ZWRzcQB+AAzY4TsXdAANJGlzSW5zdGFuY2VPZnNxAH4ADOfVlC10AAlub3RpZnlBbGxzcQB+AAzuL2r7dAAMaXNJbnN0YW5jZU9mc3EAfgAMSZlSlnQAAj09c3EAfgAMiAuJPXQABWNsb25lc3EAfgAM3oZNaXQAEGNyZWF0ZUtHcmFwaGxldHNzcQB+AAz48zKldAAIdG9TdHJpbmdzcQB+AAxL0zWVdAAhY29tcHV0ZVZlcnRleEJldHdlZW5lc3NDZW50cmFsaXR5c3EAfgAMLpzJWHQAAiE9c3EAfgAMqrpj9XQACGdldENsYXNzc3EAfgAMYZCkG3QAAm5lc3EAfgAMGup47XQAD2dldE5laWdoYm91ck1hcHNxAH4ADIikU4N0AAJlcXNxAH4ADPqirqB0AAIjI3NxAH4ADMDqMQp0AAhmaW5hbGl6ZXNxAH4ADJn9Lt90AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABBrQkMuS0JldHdlZW5uZXNzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBhAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGhzcQB+AGEBdXEAfgBEAAAAAHBzcQB+AGEBdXEAfgBEAAAAAHBzcQB+AGEBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBndAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCAdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCBc3EAfgB0dAADQW55c3EAfgB4c3EAfgB7dXEAfgB+AAAAAnNxAH4AgHQABXNjYWxhcQB+AIdwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAA2tCQ3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUymEa4t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA4L1VzZXJzL2RtYXJjb3VzL2dEcml2ZS9naXQva0JDL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTjE8mXaSPHtTudr74SydccS2gj8A==
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDRXtBjAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cM2j/id0AAZub3RpZnlzcQB+AAzUQG2edAAEd2FpdHNxAH4ADIPD8S90AA0kYXNJbnN0YW5jZU9mc3EAfgAMFaKuvHQABmVxdWFsc3NxAH4ADM9rPY90AAxhc0luc3RhbmNlT2ZzcQB+AAwrem9pdAAMc3luY2hyb25pemVkc3EAfgAMmdQDpnQADSRpc0luc3RhbmNlT2ZzcQB+AAyiud5DdAAEbWFpbnNxAH4ADGHarRx0AAlub3RpZnlBbGxzcQB+AAwj0CVHdAAMaXNJbnN0YW5jZU9mc3EAfgAMkxYMI3QAAj09c3EAfgAMzUuLlXQABWNsb25lc3EAfgAMpivoNnQACHRvU3RyaW5nc3EAfgAMTsaf+HQAAiE9c3EAfgAMw+tjbXQACGdldENsYXNzc3EAfgAMHUXZh3QAAm5lc3EAfgAMIWWS43QACWtCQ0RyaXZlcnNxAH4ADJoD4Yd0AAJlcXNxAH4ADK463+h0AAIjI3NxAH4ADDuVNUB0AAhmaW5hbGl6ZXNxAH4ADDS3lNV0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA1rQkMua0JDRHJpdmVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBZAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGBzcQB+AFkBdXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF90AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AaHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ab1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AX3NxAH4AbnQABUFycmF5cQB+AHR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbnQABlN0cmluZ3NxAH4AcnNxAH4AdXVxAH4AeAAAAANzcQB+AHp0AARqYXZhc3EAfgB6dAAEbGFuZ3EAfgB/cHNxAH4AWQF1cQB+ADwAAAAAcHNxAH4AWQF1cQB+AJMAAAACc3EAfgBudAAGT2JqZWN0cQB+AJdzcQB+AG50AANBbnlxAH4AdHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAADa0JDc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFTKYRri3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADgvVXNlcnMvZG1hcmNvdXMvZ0RyaXZlL2dpdC9rQkMvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJhNaWgvEyyruFHDx0vEQHOPm8QX
 external apis:
 0 items
 source infos:
 2 items
 /Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/KBetweenness.scala -> 
 AAAAAAAAAAA=
-/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/MainRunner.scala -> 
+/Users/dmarcous/gDrive/git/kBC/src/main/scala/kBC/kBCDriver.scala -> 
 AAAAAAAAAAA=
 compilations:
-2 items
-0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUXIPqwZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
-1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUXIaiLR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+16 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUXIPqwZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUXIaiLR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUcD6RP51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUcEBvgB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfQXW7B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfQ0NJJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfRJSLZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfRnPD91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUfSM15J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyL5xbl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyMYhSZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyM0Ne91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyNDbF91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyNIvU11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyNI7xh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUymEa4t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9kbWFyY291cy9nRHJpdmUvZ2l0L2tCQy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
