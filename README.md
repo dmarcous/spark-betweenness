@@ -31,7 +31,7 @@ Scala 2.10.
 
 ```scala
 // import needed for the .avro method to be added
-import com.centralitly.kBC.KBetweenness
+import com.centrality.kBC.KBetweenness
 		
 val graph = Graph(users, relationships, defaultUser)
 
