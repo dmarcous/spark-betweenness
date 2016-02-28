@@ -51,17 +51,18 @@ Parameters for kBC :
 - **outputDir** HDFS output dir location
 - **inputFileName** input file name containing edge_list for graph (as stated in GraphX GraphLoader.edgeListFile)
 
-
-    /usr/lib/spark/bin/spark-submit --class com.centrality.kBC.kBCDriver --executor-cores 1 --executor-memory 10000M --master yarn-cluster --num-executors 28 --conf spark.driver.memory=10000m --conf spark.driver.extraJavaOptions="-Xms4000m -Xmx10000m" --conf spark.executor.extraJavaOptions="-verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps" --conf spark.kryo.registrationRequired=false --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.yarn.maxAppAttempts=1 --conf spark.task.maxFailures=10 /tmp/kbc_2.10-1.0.jar 4 50 /tmp/input/ /tmp/output/ loc-brightkite_edges.txt
+'''
+/usr/lib/spark/bin/spark-submit --class com.centrality.kBC.kBCDriver --executor-cores 1 --executor-memory 10000M --master yarn-cluster --num-executors 28 --conf spark.driver.memory=10000m --conf spark.driver.extraJavaOptions="-Xms4000m -Xmx10000m" --conf spark.executor.extraJavaOptions="-verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps" --conf spark.kryo.registrationRequired=false --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.yarn.maxAppAttempts=1 --conf spark.task.maxFailures=10 /tmp/kbc_2.10-1.0.jar 4 50 /tmp/input/ /tmp/output/ loc-brightkite_edges.txt
+'''
 
 When using kBC this way, it is highly recommended to tune these parameters for your own benefit :
+
 - **executor-cores** recommended to 1 
 - **executor-memory** 
 - **num-executors** as far as memory of the cluster grants, given each executor needs X **executor-memory**
 - **spark.driver.extraJavaOptions** tune memory requirements
 - **spark.executor.extraJavaOptions** tune GC if needed
 - **spark.task.maxFailures** recommended larger than 1, tasks fail for out of memory sometimes for large graphs if tuning isn't right
-    
 
 ## Building From Source
 This library is built with [SBT](http://www.scala-sbt.org/0.13/docs/Command-Line-Reference.html),
