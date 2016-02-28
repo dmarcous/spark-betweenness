@@ -22,6 +22,7 @@ Computing k Betweenness Centrality (kBC) on arbitraty graphs using GraphX.
 ## Requirements
 
 Spark 1.5+.
+
 Scala 2.10.
 
 ## Usage
@@ -44,8 +45,8 @@ val kBCGraph =
 You can run kBC directly form command line using spark-submit.
 
 Parameters for kBC :
-- **k** k for kBC computation
-- **numEdgePartitions** number of partitions when loading graph, recommended ( **num-executors:** * 2 ) - 6
+- **k** size of k-graphlets for kBC
+- **numEdgePartitions** number of partitions when loading graph, recommended ( **num-executors** * 2 ) - 6
 - **inputDir** HDFS input dir location
 - **outputDir** HDFS output dir location
 - **inputFileName** input file name containing edge_list for graph (as stated in GraphX GraphLoader.edgeListFile)
@@ -54,9 +55,9 @@ Parameters for kBC :
     /usr/lib/spark/bin/spark-submit --class com.centrality.kBC.kBCDriver --executor-cores 1 --executor-memory 10000M --master yarn-cluster --num-executors 28 --conf spark.driver.memory=10000m --conf spark.driver.extraJavaOptions="-Xms4000m -Xmx10000m" --conf spark.executor.extraJavaOptions="-verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps" --conf spark.kryo.registrationRequired=false --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.yarn.maxAppAttempts=1 --conf spark.task.maxFailures=10 /tmp/kbc_2.10-1.0.jar 4 50 /tmp/input/ /tmp/output/ loc-brightkite_edges.txt
 
 When using kBC this way, it is highly recommended to tune these parameters for your own benefit :
-- **executor-cores:** recommended to 1 
-- **executor-memory:** 
-- **num-executors:** as far as memory of the cluster grants, given each executor needs X **executor-memory:**
+- **executor-cores** recommended to 1 
+- **executor-memory** 
+- **num-executors** as far as memory of the cluster grants, given each executor needs X **executor-memory**
 - **spark.driver.extraJavaOptions** tune memory requirements
 - **spark.executor.extraJavaOptions** tune GC if needed
 - **spark.task.maxFailures** recommended larger than 1, tasks fail for out of memory sometimes for large graphs if tuning isn't right
