@@ -37,7 +37,7 @@ val graph = Graph(users, relationships, defaultUser)
 
 // Run kBC to get result graph
 val kBCGraph = 
-      KBetweenness.run(graph, 3)
+      KBetweenness.run(graph, k)
 ```
 
 ### Running kBC from command line
