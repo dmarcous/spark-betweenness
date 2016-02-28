@@ -69,5 +69,12 @@ This library is built with [SBT](http://www.scala-sbt.org/0.13/docs/Command-Line
 which is automatically downloaded by the included shell script.  To build a JAR file simply run
 `sbt package` from the project root.
 
+##Credits
+
+Written and maintained by :
+
+Daniel Marcous <dmarcous@gmail.com>
+
+Yotam Sandbank <yotamsandbank@gmail.com>
 
 
