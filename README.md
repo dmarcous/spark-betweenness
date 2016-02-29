@@ -25,6 +25,28 @@ Spark 1.5+.
 
 Scala 2.10.
 
+## Linking
+
+You can link against this library (for Spark 1.5+) in your program at the following coordinates:
+
+Using SBT:
+
+```
+libraryDependencies += "com.centrality" %% "spark-beetweenness" % "1.0.0"
+```
+
+This library can also be added to Spark jobs launched through `spark-shell` or `spark-submit` by using the `--packages` command line option.
+For example, to include it when starting the spark shell:
+
+```
+$ bin/spark-shell --packages com.centrality:spark-beetweenness_2.10:1.0.0
+```
+
+Unlike using `--jars`, using `--packages` ensures that this library and its dependencies will be added to the classpath.
+The `--packages` argument can also be used with `bin/spark-submit`.
+
+This library is cross-published for Scala 2.10, so 2.11 users should replace 2.10 with 2.11 in the commands listed above.
+
 ## Usage
 
 ### Scala API
