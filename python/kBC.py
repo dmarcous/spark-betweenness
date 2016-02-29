@@ -4,7 +4,7 @@ import time
 import sys
 import os
 
-print('Usage: python kBC.py filename k)
+print('Usage: python kBC.py filename k')
 args = sys.argv
 os.chdir(sys.path[0])
 sg = nx.read_edgelist(args[1], nodetype=int)#, create_using = nx.DiGraph())

@@ -4,7 +4,7 @@
 		module="spark-beetweenness_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20160228234727"
+		publication="20160229120644"
 	>
 		<description>
 		spark-beetweenness
@@ -26,16 +26,12 @@
 		<conf name="scala-tool" visibility="private" description=""/>
 	</configurations>
 	<publications>
-		<artifact name="spark-beetweenness_2.10" type="pom" ext="pom" conf="pom"/>
-		<artifact name="spark-beetweenness_2.10" type="jar" ext="jar" conf="compile"/>
-		<artifact name="spark-beetweenness_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="spark-beetweenness_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="spark-beetweenness_2.10" type="jar" ext="jar" conf="compile,runtime,test,provided,optional,sources,docs,pom"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.5.2" conf="compile->default(compile)"/>
-		<dependency org="org.apache.spark" name="spark-graphx_2.10" rev="1.5.2" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-graphx_2.10" rev="1.5.2" conf="provided->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.2.4" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
