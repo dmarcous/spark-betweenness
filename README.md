@@ -1,4 +1,4 @@
-# spark-beetweenness
+# spark-betweenness
 
 k Betweenness Centrality (kBC) algorithm for Spark using GraphX
 
@@ -32,14 +32,14 @@ You can link against this library (for Spark 1.5+) in your program at the follow
 Using SBT:
 
 ```
-libraryDependencies += "com.centrality" %% "spark-beetweenness" % "1.0.0"
+libraryDependencies += "com.centrality" %% "spark-betweenness" % "1.0.0"
 ```
 
 This library can also be added to Spark jobs launched through `spark-shell` or `spark-submit` by using the `--packages` command line option.
 For example, to include it when starting the spark shell:
 
 ```
-$ bin/spark-shell --packages com.centrality:spark-beetweenness_2.10:1.0.0
+$ bin/spark-shell --packages com.centrality:spark-betweenness_2.10:1.0.0
 ```
 
 Unlike using `--jars`, using `--packages` ensures that this library and its dependencies will be added to the classpath.
