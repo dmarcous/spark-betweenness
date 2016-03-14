@@ -28,7 +28,7 @@ credentials += Credentials(Path.userHome / ".sbtcredentials")
 
 spShortDescription := "k Betweenness Centrality algorithm for Spark using GraphX"
 
-spDescription := """Computing k Betweenness Centrality (kBC) on arbitraty graphs using GraphX. 
+spDescription := """Computing k Betweenness Centrality (kBC) on arbitrary graphs using GraphX. 
                     |Uses Pregel API for k-graphlet generation and Brandes algorithm for kBC score contribution for each vertex in parallel. 
                     |Works best for graphs with small diameter.""".stripMargin
 
