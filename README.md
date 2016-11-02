@@ -92,7 +92,7 @@ which is automatically downloaded by the included shell script.  To build a JAR 
 `sbt package` from the project root.
 
 ## More Information
-See the research report that led to this project with more details and comparisons to other frameworks [here]http://www.slideshare.net/DanielMarcous/distributed-kbetweenness-spark
+See the research report that led to this project with more details and comparisons to other frameworks [here](http://www.slideshare.net/DanielMarcous/distributed-kbetweenness-spark)
 
 ##Credits
 
