@@ -91,6 +91,9 @@ This library is built with [SBT](http://www.scala-sbt.org/0.13/docs/Command-Line
 which is automatically downloaded by the included shell script.  To build a JAR file simply run
 `sbt package` from the project root.
 
+## More Information
+See the research report that led to this project with more details and comparisons to other frameworks [here]http://www.slideshare.net/DanielMarcous/distributed-kbetweenness-spark
+
 ##Credits
 
 Written and maintained by :
