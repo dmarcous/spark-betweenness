@@ -15,7 +15,7 @@ Computing k Betweenness Centrality (kBC) on arbitraty graphs using GraphX.
 
 ### Notes 
 
-  The method above ilustrated that spark-betweenness works best for graphs with a small diameter.
+  The method above illustrated that spark-betweenness works best for graphs with a large diameter.
   We actually hold all k-graphlets in memory for Brandes calculation as they are the core of parallelizing this algorithm.
   Therefore, we manage to compute kBC on millions of nodes and vertices with large diameter graphs (such as road networks), but fail    miserabely to do so on small diameter graphs (such as social networks).
 
